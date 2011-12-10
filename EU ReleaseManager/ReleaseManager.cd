@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EU_Release_Manager.Controller.EventArgs&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controller\EventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Controller.ReleaseManager" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EU_Release_Manager.Controller.ReleaseManager.DelegateTransfer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\ReleaseManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EU_Release_Manager.Controller.ReleaseManager.TestSettingsAsync" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\ReleaseManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EU_Release_Manager.Controller.ReleaseManager.GetLocalFilesAsync" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\ReleaseManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EU_Release_Manager.Controller.ReleaseManager.BuildTransferListAsync" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\ReleaseManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="EU_Release_Manager.Controller.ReleaseManager.UploadStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\ReleaseManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EU_Release_Manager.Controller.ReleaseManager.DownloadStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\ReleaseManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>Q0MAMGlkBHSZAVMFspEYABw6kQEh0gggoAEGRiSIARA=</HashCode>
+      <FileName>Controller\ReleaseManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EU_Release_Manager.Controller.Settings" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggBQBAAAGEQCJIAAACAkQACAABAAAACgCAAAAgAAIA=</HashCode>
+      <FileName>Controller\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Controller.Strings" Collapsed="true">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQACAAAADAACBACEAgBAcAKAAIYAGIAwETMAgEAAAA=</HashCode>
+      <FileName>Controller\Strings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Controller.XML.XmlFullVersion" Collapsed="true">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Controller\XML\XmlFullVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Controller.XML.XmlUpdate" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgKAEAAACABAAAAAAAAAAAAAAAAAABAAAAAAABAg=</HashCode>
+      <FileName>Controller\XML\XmlUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Controller.XML.XmlVersions" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAgYACAAAAAAAAQAAAAAgAAAAAAAECAgAEAQBAIAA=</HashCode>
+      <FileName>Controller\XML\XmlVersions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.GUI.ReleaseManagerForm" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EU_Release_Manager.GUI.ReleaseManagerForm.DelegateClosing" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GUI\ReleaseManagerForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>0hIAAxE0QaEAw1IjEifQkQBGYYJCACUBYCCUIiwBgBE=</HashCode>
+      <FileName>GUI\ReleaseManagerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Network.FileTransfer" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQBUwACQAGEsYDGBCACkJRITgI0EgABgBAPA2FERUQQ=</HashCode>
+      <FileName>Network\FileTransfer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EU_Release_Manager.Network.MyWebClient" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Network\MyWebClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.ErrorLog" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ErrorLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EU_Release_Manager.Program" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EU_Release_Manager.Network.TransferFile" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAACAIAAAAAAAAAEAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Network\TransferFile.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="EU_Release_Manager.Controller.TestSettingsResult" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAgAIAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EU_Release_Manager.Network.FileTransferResult" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\FileTransferResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="EU_Release_Manager.Network.FileTransferCallback" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\FileTransferCallback.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
